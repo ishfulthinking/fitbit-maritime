@@ -1,0 +1,22 @@
+{
+  "fitbit": {
+    "appUUID": "b80f2af2-91c5-4394-a47b-ab9368904bcd",
+    "appType": "clockface",
+    "appDisplayName": "Maritime",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_user_profile"
+    ],
+    "buildTargets": [
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Maritime"
+      }
+    }
+  }
+}

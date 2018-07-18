@@ -1,0 +1,53 @@
+<svg class="background">
+  <image href="img_background.png" load="sync"/>
+  
+  <svg id="stepsHold">
+    <image id="stepsIcon" href="img_steps32.png" load="sync"/>
+    <text id="stepsText"/>
+    <arc id="stepsArc"/>
+  </svg>
+  
+  <svg id="distanceHold">
+    <image id="distanceIcon" href="img_distance32.png" load="sync"/>
+    <text id="distanceText"/>
+    <arc id="distanceArc"/>
+  </svg>
+  
+  <svg id="caloriesHold">
+    <image id="caloriesIcon" href="img_calories32.png" load="sync"/>
+    <text id="caloriesText"/>
+    <arc id="caloriesArc"/>
+  </svg>
+  
+  <svg id="activityHold">
+    <image id="activityIcon" href="img_activity32.png" load="sync"/>
+    <text id="activityText"/>
+    <arc id="activityArc"/>
+  </svg>
+  
+  <svg id="batteryHold">
+    <line id="battery"/>
+  </svg>
+  
+  <svg id="currTime">
+    <svg id="dayInfo">
+      <text id="dayInfoText"/>
+    </svg>
+    <svg id="dateInfo">
+      <text id="dateInfoText"/>
+    </svg>
+    <text id="timeText">
+      <svg id="merid">
+        <text id="meridText"/>
+      </svg>
+    </text>
+  </svg>
+  
+  <svg id="heartInfo">
+    <text id="heartText"/>
+  </svg>
+  <svg id="heartHold">
+    <image id="heartIcon" href="img_hr32.png" load="sync"/>
+  </svg>
+  
+</svg>
