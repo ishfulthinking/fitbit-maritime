@@ -2,8 +2,8 @@
 Maritime is a clock face for the Fitbit Ionic. I created it because I wanted a watch face that displayed all the information I might need at a glance, and I wanted it to be visually appealing too.
 
 ## Features
-• Time display is configurable (12 hour or 24 hour)
-• Shows current day of the week and date
+• Time display is configurable (12 hour or 24 hour)\n
+• Shows current day of the week and date\n
 • Displays current heart rate (if available) as both number and icon
 	→ Heart rate icon changes depending on heart rate "zone" (resting, fat burn, cardio/peak)
 	→ Heart icon "beats" with current user heart rate
