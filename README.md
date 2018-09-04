@@ -1,6 +1,9 @@
 # Maritime
 Maritime is a clock face for the Fitbit Ionic. I created it because I wanted a watch face that displayed all the information I might need at a glance, and I wanted it to be visually appealing too.
 
+If you're on mobile, you can use the below link to open the Fitbit app directly to this watch face:
+https://gam.fitbit.com/gallery/clock/b80f2af2-91c5-4394-a47b-ab9368904bcd
+
 ## Features
 * Time display is configurable (12 hour or 24 hour)  
 * Shows current day of the week and date  
@@ -20,5 +23,5 @@ Maritime is a clock face for the Fitbit Ionic. I created it because I wanted a w
 ##### 24 Hour Clock
 ![24 Hour](https://github.com/ishfulthinking/fitbit-maritime/blob/master/Maritime-screenshots/24hour.PNG)  
 
-##### Fitbit Ionic
+##### 12 Hour Clock
 ![12 Hour](https://github.com/ishfulthinking/fitbit-maritime/blob/master/Maritime-screenshots/12hour.PNG)  
