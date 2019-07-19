@@ -1,0 +1,280 @@
+#background {
+  width: 100%;
+  height: 100%;
+  fill: #1E90FF;
+}
+
+#clockLineLU {
+  x1: 15;
+  y1: 83;
+  x2: 54;
+  y2: 94;
+  stroke-width: 3;
+  fill: #1E90FF;
+}
+#clockLineLM {
+  x1: 10;
+  y1: 125;
+  x2: 50;
+  y2: 125;
+  stroke-width: 3;
+  fill: #1E90FF;
+}
+#clockLineLD {
+  x1: 15;
+  y1: 166;
+  x2: 54;
+  y2: 155;
+  stroke-width: 3;
+  fill: #1E90FF;
+}
+#clockLineRU {
+  x1: 294;
+  y1: 94;
+  x2: 332;
+  y2: 83;
+  stroke-width: 3;
+  fill: #1E90FF;
+}
+#clockLineRM {
+  x1: 297;
+  y1: 125;
+  x2: 337;
+  y2: 125;
+  stroke-width: 3;
+  fill: #1E90FF;
+}
+#clockLineRD {
+  x1: 294;
+  y1: 156;
+  x2: 332;
+  y2: 167;
+  stroke-width: 3;
+  fill: #1E90FF;
+}
+
+#batteryHold {
+  x: 50%;
+  y: 6;
+}
+
+#battery {
+  x1: -50;
+  x2: 50;
+  y1: 0;
+  y2: 0;
+  stroke-width: 4;
+  fill: black;
+}
+
+#currTime {
+  x: 50%;
+  y: 0;
+}
+
+#timeText {
+  font-size: 64;
+  font-family: Fabrikat-Bold;
+  text-length: 5;
+  text-anchor: middle;
+  fill: white;
+}
+
+#merid {
+  x: 25%;
+  y: 0;
+}
+
+#meridText {
+  font-size: 22;
+  font-family: Fabrikat-Bold;
+  text-length: 2;
+  text-anchor: middle;
+  fill: white;
+}
+
+#dayInfo {
+  x: 0;
+  y: -30%;
+}
+
+#dayInfoText {
+  font-size: 23;
+  font-family: Fabrikat-Bold;
+  text-length: 3;
+  text-anchor: middle;
+  fill: #1E90FF;
+}
+
+#dateInfo {
+  x: 0;
+  y: -20%;
+}
+
+#dateInfoText {
+  font-size: 24;
+  font-family: Fabrikat-Bold;
+  text-length: 6;
+  text-anchor: middle;
+  fill: #1E90FF;
+}
+
+#heartHolder {
+  x: 50%;
+  y: 75%;
+}
+
+#heartText {
+  x: 0;
+  y: 0;
+  font-size: 24;
+  font-family: Fabrikat-Bold;
+  text-length: 3;
+  text-anchor: middle;
+  fill: #1E90FF;
+}
+
+#heartIcon {
+  x: -14;
+  y: 8;
+  height: 28;
+  width: 28;
+  fill: #1E90FF;
+  opacity: 1;
+}
+
+#stepsHold {
+  x: 8%;
+  y: 8%;
+  height: 32;
+  width: 32;
+}
+
+#stepsIcon {
+  y: -3;
+  fill: fb-green;
+  opacity: 1;
+}
+
+#stepsText {
+  x: 50%;
+  y: 130%;
+  font-size: 14;
+  font-family: Seville-Bold-Condensed;
+  text-length: 5;
+  text-anchor: middle;
+  fill: fb-green;
+}
+
+#stepsArc {
+  x: -50%;
+  y: -35%;
+  height: 64;
+  width: 64;
+  fill: fb-green;
+  arc-width: 5;
+  start-angle: 0;
+  sweep-angle: 0;
+}
+
+#distanceHold {
+  x: 83%;
+  y: 8%;
+  height: 32;
+  width: 32;
+}
+
+#distanceIcon {
+  y: -3;
+  fill: fb-purple;
+  opacity: 1;
+}
+
+#distanceText {
+  x: 50%;
+  y: 130%;
+  font-size: 14;
+  font-family: Seville-Bold-Condensed;
+  text-length: 4;
+  text-anchor: middle;
+  fill: fb-purple;
+}
+
+#distanceArc {
+  x: -50%;
+  y: -35%;
+  height: 64;
+  width: 64;
+  fill: fb-purple;
+  arc-width: 5;
+  start-angle: 0;
+  sweep-angle: 0;
+}
+
+#caloriesHold {
+  x: 8%;
+  y: 76%;
+  height: 32;
+  width: 32;
+}
+
+#caloriesIcon {
+  y: -3;
+  fill: fb-orange;
+  opacity: 1;
+}
+
+#caloriesText {
+  x: 50%;
+  y: 130%;
+  font-size: 14;
+  font-family: Seville-Bold-Condensed;
+  text-length: 4;
+  text-anchor: middle;
+  fill: fb-orange;
+}
+
+#caloriesArc {
+  x: -50%;
+  y: -35%;
+  height: 64;
+  width: 64;
+  fill: fb-orange;
+  arc-width: 5;
+  start-angle: 0;
+  sweep-angle: 0;
+}
+
+#activityHold {
+  x: 83%;
+  y: 76%;
+  height: 32;
+  width: 32;
+}
+
+#activityIcon {
+  y: -3;
+  fill: fb-yellow;
+  opacity: 1;
+}
+
+#activityText {
+  x: 50%;
+  y: 130%;
+  font-size: 14;
+  font-family: Seville-Bold-Condensed;
+  text-length: 4;
+  text-anchor: middle;
+  fill: fb-yellow;
+}
+
+#activityArc {
+  x: -50%;
+  y: -35%;
+  height: 64;
+  width: 64;
+  fill: fb-yellow;
+  arc-width: 5;
+  start-angle: 0;
+  sweep-angle: 0;
+}

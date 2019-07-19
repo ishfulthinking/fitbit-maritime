@@ -1,0 +1,60 @@
+<svg>
+  <rect id="background"/>
+  <image href="background.png" load="sync"/>
+    
+  <line id="clockLineLU"/>
+  <line id="clockLineLM"/>
+  <line id="clockLineLD"/>
+    
+  <line id="clockLineRU"/>
+  <line id="clockLineRM"/>
+  <line id="clockLineRD"/>
+  
+  <svg id="stepsHold">
+    <image id="stepsIcon" href="fitness/steps.png" load="sync"/>
+    <text id="stepsText"/>
+    <arc id="stepsArc"/>
+  </svg>
+  
+  <svg id="distanceHold">
+    <image id="distanceIcon" href="fitness/distance.png" load="sync"/>
+    <text id="distanceText"/>
+    <arc id="distanceArc"/>
+  </svg>
+  
+  <svg id="caloriesHold">
+    <image id="caloriesIcon" href="fitness/calories.png" load="sync"/>
+    <text id="caloriesText"/>
+    <arc id="caloriesArc"/>
+  </svg>
+  
+  <svg id="activityHold">
+    <image id="activityIcon" href="fitness/activity.png" load="sync"/>
+    <text id="activityText"/>
+    <arc id="activityArc"/>
+  </svg>
+  
+  <svg id="batteryHold">
+    <line id="battery"/>
+  </svg>
+  
+  <svg id="currTime">
+    <svg id="dayInfo">
+      <text id="dayInfoText"/>
+    </svg>
+    <svg id="dateInfo">
+      <text id="dateInfoText"/>
+    </svg>
+    <text id="timeText">
+      <svg id="merid">
+        <text id="meridText"/>
+      </svg>
+    </text>
+  </svg>
+  
+  <svg id="heartHolder">
+    <text id="heartText"/>
+    <image id="heartIcon" href="heart/resting.png" load="sync"/>
+  </svg>
+  
+</svg>
