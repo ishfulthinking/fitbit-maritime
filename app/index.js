@@ -45,20 +45,9 @@ clock.ontick = (evt) =>
   let hours = todayDate.getHours();
   let minutes = todayDate.getMinutes();
   
-  if (!loaded)
-  {
-    updateDate(todayDate);
-    updateHourlies(hours, todayDate);
-    loaded = true;
-  }
-  
+  updateDate(todayDate)
   updateTime(hours, minutes);
-  updateMinutelies();
-  
-  if (minutes == 0)
-  {
-    updateHourlies(hours, todayDate);
-  }
+  updateData();
 }
 
 function updateDate(todayDate)
@@ -87,20 +76,10 @@ function updateTime(hours, minutes)
   timeText.text = `${hours}:${minutes}`;
 }
 
-function updateHourlies(hours, todayDate)
-{
-  updateBattery();
-  
-  if (hours == 0)
-  {
-    updateDate(todayDate);
-  }
-}
-
-function updateMinutelies()
+function updateData()
 {
   updateGoals();
-  //updateHeartRate();
+  updateBattery();
 }
 
 function updateGoals()
@@ -127,22 +106,6 @@ hrm.onreading = function() {
   hrLabel.text = hrm.heartRate || "--";
   const hrZone = user.heartRateZone(hrm.heartRate);
   heartIcon.href = util.getHeartZone(hrZone);
-}
-// Heartbeat helper functions.
-function heartbeatBig()
-{
-  heartIcon.x = -4;
-  heartIcon.y = -4;
-  heartIcon.width = 32;
-  heartIcon.height = 32;
-  setTimeout(heartbeatSmall, 200);
-}
-function heartbeatSmall()
-{
-  heartIcon.x = -2;
-  heartIcon.y = -2;
-  heartIcon.width = 28;
-  heartIcon.height = 28;
 }
 
 function updateBattery()
